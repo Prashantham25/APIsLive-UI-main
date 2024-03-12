@@ -1,0 +1,102 @@
+const RiskDetailsMaster = {
+  AgeOfBuilding: [
+    { mID: "1", mValue: "< 5 years" },
+    { mID: "2", mValue: "=> 5 years and < 10 years" },
+    { mID: "3", mValue: "=> 10 years and < 20 years" },
+    { mID: "4", mValue: ">= 20 years" },
+    { mID: "5", mValue: "Detail not available" },
+  ],
+  RiskTerrain: [
+    { mID: "1", mValue: "Plain surface" },
+    { mID: "2", mValue: "Hilly area" },
+    { mID: "3", mValue: "Near to water bodies" },
+    { mID: "4", mValue: "Detail not available" },
+  ],
+  HouseKeeping: [
+    { mID: "1", mValue: "Poor (Step - 1)" },
+    { mID: "2", mValue: "Average (Step - 1&2)" },
+    { mID: "3", mValue: "Above Average (Step - 1&2&3)" },
+    { mID: "4", mValue: "Good (All steps)" },
+    { mID: "5", mValue: "Detail not available" },
+  ],
+  StockExposure: [
+    { mID: "1", mValue: "=> 0% and <25%" },
+    { mID: "2", mValue: "=>25% and <50%" },
+    { mID: "3", mValue: "=>50 and <75%" },
+    { mID: "4", mValue: "=>75 and <100%" },
+    { mID: "5", mValue: "=> 100%" },
+    { mID: "6", mValue: "Detail not available" },
+  ],
+  DstPublicFireBrigade: [
+    { mID: "1", mValue: "< 5km" },
+    { mID: "2", mValue: ">= 5km and < 10km" },
+    { mID: "3", mValue: ">= 10km" },
+    { mID: "4", mValue: "Detail not available" },
+  ],
+  ClientBusinessExperiance: [
+    { mID: "1", mValue: "Profitable" },
+    { mID: "2", mValue: "Adequate" },
+    { mID: "3", mValue: "Running at loss" },
+    { mID: "4", mValue: "Detail not available" },
+  ],
+  TypeOfConstruction: [
+    { mID: "1", mValue: "Concrete Frame Construction" },
+    { mID: "2", mValue: "Steel Frame Structures" },
+    { mID: "3", mValue: "Pre-Engineered Building" },
+    { mID: "4", mValue: "Wood Framed Construction" },
+    { mID: "5", mValue: "Others Kutcha" },
+    { mID: "6", mValue: "Others Pucca" },
+    { mID: "7", mValue: "Detail not available" },
+  ],
+  ClaimsRation: [
+    { mID: "1", mValue: "=> 0% and < 25% (CR)" },
+    { mID: "2", mValue: "=> 25% and <50% (CR)" },
+    { mID: "3", mValue: "=> 50% and <60% (CR)" },
+    { mID: "4", mValue: "=>60% and <70% (CR)" },
+    { mID: "5", mValue: "=>70% and <85% (CR)" },
+    { mID: "6", mValue: "=>85% and <100% (CR)" },
+    { mID: "7", mValue: "=>100% (CR)" },
+    { mID: "8", mValue: "Detail not available" },
+  ],
+  FireProtection: [
+    {
+      mID: "1",
+      mValue:
+        "Hand Appliances (more than 6) Hydrant System, Independent Sprinkler & Smoke detector systems, Fire Alarm System , Gas Flooding System",
+    },
+    { mID: "2", mValue: "Hand Appliances (2, 3) ,Hydrant System, Sprinkler system" },
+    { mID: "3", mValue: "Hand Appliances" },
+    { mID: "4", mValue: "Detail not available" },
+  ],
+  PastFlooding: [
+    { mID: "1", mValue: "Yes" },
+    { mID: "2", mValue: "No" },
+  ],
+  BasementExposure: [
+    { mID: "1", mValue: "=>0% and <5% (basement)" },
+    { mID: "2", mValue: "=>5% and <10% (basement)" },
+    { mID: "3", mValue: "=>10% and <15% (basement)" },
+    { mID: "4", mValue: "=>15% and <20% (basement)" },
+    { mID: "5", mValue: "=>20% (basement)" },
+    { mID: "6", mValue: "Detail not available" },
+  ],
+  ClaimExperience: [
+    { mID: "1", mValue: "Non Banca Policy Without Loss in 3 Years" },
+    { mID: "2", mValue: "Non Banca Policy With Loss in 3 Years" },
+  ],
+  Occupancy: [
+    { mID: "1", mValue: "Abrasive Manufacturing" },
+    { mID: "2", mValue: "Aerated Water Factories" },
+    { mID: "3", mValue: "Aerial Ropeway including trolley stations" },
+    { mID: "4", mValue: "Agarbatti manufacturing" },
+    { mID: "5", mValue: "Aircraft Hangers" },
+    {
+      mID: "6",
+      mValue: "Airport Terminal Buildings (including all facilities like Cafes, Shops etc)",
+    },
+    { mID: "7", mValue: "Aluminium, Zinc, Copper Factories" },
+    { mID: "8", mValue: "Arms and Ammunition dealers" },
+    { mID: "9", mValue: "Amusement parks" },
+  ],
+};
+export default RiskDetailsMaster;

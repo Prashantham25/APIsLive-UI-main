@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\modules",
+    "\\src\\modules\\PolicyLive",
+    "\\src\\modules\\PolicyLive\\views",
+    "\\src\\modules\\PolicyLive\\views\\Retail",
+    "\\src\\modules\\PolicyLive\\views\\Retail\\Products",
+    "\\src\\modules\\PolicyLive\\views\\Retail\\Products\\Magma"
+  ],
+  "PreviewInSolutionExplorer": false
+}

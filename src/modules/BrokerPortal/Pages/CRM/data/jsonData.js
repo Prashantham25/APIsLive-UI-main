@@ -1,0 +1,80 @@
+const CRMJson = {
+  RawImage: "",
+  Name: "",
+  CreatedDate: "",
+  ProspectType: "prospect",
+  ProspectId: "",
+  CustomerType: "Individual",
+  CompanyName: "",
+  isActive: 1,
+  MobileNumber: "",
+  AlternateMobileNumber: "",
+  Email: "",
+  Gender: "",
+  Profession: "",
+  Income: "",
+  Source: "",
+  Opportunity: "",
+  CINNo: "",
+  GSTNo: "",
+  AffordabilityStatus: "",
+  LOB: "",
+  Premium: "",
+  NoofEmployees: "",
+  DateOfBirth: "",
+  IdentificationDetails: [
+    {
+      Type: "",
+      Value: "",
+      Default: "false",
+    },
+  ],
+  AssignedTo: "",
+  AssignedDate: "",
+  Status: "",
+  CommunicationDetails: {
+    Address1: "",
+    Address2: "",
+    AreaId: "",
+    DistrictId: "",
+    StateId: "",
+    Pincode: "",
+    State: "",
+    District: "",
+    Area: "",
+  },
+  Opportunities: [
+    // {
+    //   OpportunityId: "",
+    //   LOB: "",
+    //   Product: "",
+    //   Partner: "",
+    //   AssignedTo: "",
+    //   AssignedDate: "",
+    // },
+  ],
+  Notes: [
+    // {
+    //   NoteId: "",
+    //   Note: "",
+    //   CreatedDate: "",
+    //   LastModifiedDate: "",
+    // },
+  ],
+  Tasks: [
+    // {
+    //   ActivityType: "",
+    //   CreatedDate: "",
+    //   CreatedTime: "",
+    //   RemindBefore: "",
+    // },
+  ],
+  Documents: [
+    // {
+    //   DocumentType: "PAN Card",
+    //   fileName: "",
+    // },
+  ],
+};
+
+export default CRMJson;

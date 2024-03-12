@@ -1,0 +1,20 @@
+{
+  "short_name": "PMI Nepal",
+  "name": "PMI Nepal",
+  "icons": [
+    {
+      "src": "images.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "images/ProtectiveMILogo/",
+  "display": "standalone",
+  "theme_color": "#843620",
+  "background_color": "#ffffff"
+}

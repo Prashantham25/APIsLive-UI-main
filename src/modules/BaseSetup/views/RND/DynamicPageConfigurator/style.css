@@ -1,0 +1,51 @@
+#leftSlide {
+  animation-duration: 2s;
+  animation-name: leftSlide;
+}
+
+@keyframes leftSlide {
+  from {
+    margin-left: 50%;
+    width: 200%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+#rightSlide {
+  animation-duration: 3s;
+  animation-name: rightSlide;
+}
+
+@keyframes rightSlide {
+  from {
+    margin-right: 100%;
+    width: 200%;
+  }
+
+  98% {
+    margin-right: 2%;
+    /* width: 100%; */
+  }
+  to {
+    /* margin-right: 'center'; */
+    /* width: 100%; */
+  }
+}
+
+#topSlide {
+  animation-duration: 3s;
+  animation-name: topSlide;
+}
+
+@keyframes topSlide {
+  from {
+    margin-bottom: 100%;
+  }
+  to {
+    margin-bottom: 0%;
+  }
+}

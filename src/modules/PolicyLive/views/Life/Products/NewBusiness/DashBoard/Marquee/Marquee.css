@@ -1,0 +1,20 @@
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .marquee-content {
+    display: flex;
+    animation: marquee 8s linear infinite;
+  }
+  
+  .news-item {
+    padding: 0 10px; 
+  }
+  
+  @keyframes marquee {
+    0%   { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  
